@@ -6,7 +6,10 @@
   "plugins": [
     {
       "name": "harmony-plugin",
-      "source": "https://github.com/ycomplex/harmony-plugin",
+      "source": {
+        "source": "github",
+        "repo": "ycomplex/harmony-plugin"
+      },
       "description": "Harmony project management — MCP tools, CLI, and workflow skills for Claude Code"
     }
   ]
